@@ -13,10 +13,9 @@ class WaScripts < Formula
     puts "Please run 'wa.config' to properly set up wa.scripts"
     ohai "Please run 'wa.config' to properly set up wa.scripts"
   end
-  
+
   def post_uninstall
-    ohai "uninstalledh ahahahahah"
-    # Optionally add logic to handle errors from the script
+    puts "Uninstalled wa.scripts. Remember to clean up any configuration files manually."
   end
 
   def caveats
