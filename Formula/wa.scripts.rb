@@ -27,6 +27,11 @@ class WaScripts < Formula
     end
   end
 
+  def post_uninstall
+    ohai "uninstalledh ahahahahah"
+    # Optionally add logic to handle errors from the script
+  end
+
   def caveats
     <<~EOS
       To use `wa` in the current shell, please run:
