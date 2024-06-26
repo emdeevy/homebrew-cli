@@ -1,4 +1,4 @@
-class WAScripts < Formula
+class WaScripts < Formula
   desc "WA application"
   homepage "https://github.com/emdeevy/wa.scripts"
   url "https://github.com/emdeevy/wa.scripts.git", :using => :git, :branch => "main"
