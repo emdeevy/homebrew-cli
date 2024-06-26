@@ -15,6 +15,7 @@ class WaScripts < Formula
   end
 
   def uninstall
+    ohai "Uninstalling wa.scripts haha"
     # Run the check_uninstall.sh script with parameters
     system "#{bin}/wa.binary", "possible", "uninstall"
 
