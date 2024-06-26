@@ -13,20 +13,7 @@ class WaScripts < Formula
     puts "Please run 'wa.config' to properly set up wa.scripts"
     ohai "Please run 'wa.config' to properly set up wa.scripts"
   end
-
-  def uninstall
-    ohai "Uninstalling wa.scripts haha"
-    # Run the check_uninstall.sh script with parameters
-    system "#{bin}/wa.binary", "possible", "uninstall"
-
-    # Check if the script was successful
-    if $?.exitstatus == 0
-      # Future uninstall requirements
-    else
-      odie "Uninstallation not allowed. Please delete the condition file to proceed."
-    end
-  end
-
+  
   def post_uninstall
     ohai "uninstalledh ahahahahah"
     # Optionally add logic to handle errors from the script
